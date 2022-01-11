@@ -182,7 +182,7 @@ Jika kombinasi benar, maka user akan diarahkan ke laman utama aplikasi, berjudul
 
 User dapat menekan tombol logout untuk keluar dari akun dan menutup halaman ini.
 
-1) **Add Student**
+2) **Add Student**
 
 Data siswa adalah data pertama yang perlu ditambahkan ke dalam database program ini. Dengan menekan tombol “Add Student Data” di halaman utama, maka user akan ditampilkan halaman untuk mengisi data siswa sebagai berikut:
 
@@ -196,7 +196,7 @@ Setelah mengisi data dengan benar, tekan tombol “Save Data” untuk menyimpan 
 
 Ulangi langkah ini untuk setiap siswa yang akan terlibat di perkuliahan.
 
-1) **Class Schedule**
+3) **Class Schedule**
 
 Setiap menambahkan siswa, program akan mengembalikan user ke halaman utama. Untuk melihat setiap kelas yang ada, user dapat memilih tombol kedua yaitu “Class Schedule”. Tampilan pertama halaman ini adalah sebagai berikut:
 
@@ -216,7 +216,7 @@ Perlu diingat bahwa kode kelas merupakan *key* yang akan digunakan oleh program,
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.032.png)
 
-1) **Add Student to the Selected Class**
+4) **Add Student to the Selected Class**
 
 Ketika user telah menambahkan kelas-kelas yang dibutuhkan, saatnya mendaftarkan atau meng-*enroll* siswa yang sudah ada ke dalam kelas tersebut. Caranya, di halaman manage class schedule, user dapat memilih kelas yang diinginkan dan lakukan double klik untuk masuk ke detail kelas tersebut.
 
@@ -240,7 +240,7 @@ Siswa yang dipilih akan masuk ke database kelas tersebut, dan program akan me-*r
 
 Jika user menekan tombol back, maka halaman detail kelas yang dipilih akan terupdate nama siswanya. Dalam contoh diatas, kelas LA01 hanya memiliki murid sejumlah 2 orang. User dapat kembali menambahkan siswa pada kelas ini jika diperlukan.
 
-1) **Add Session to the Selected Class**
+5) **Add Session to the Selected Class**
 
 Untuk melihat semua sesi yang ada di sebuah kelas, user harus terlebih dulu masuk ke halaman detail kelas tersebut. Selanjutnya, user dapat menekan tombol “View Sessions” untuk melihat sesi yang ada.
 
@@ -256,7 +256,7 @@ Aplikasi akan menampilkan kalender, dan user akan memilih tanggal yang sesuai de
 
 Program akan kembali ke halaman sebelumnya, dan menampilkan sesi sesuai dengan apa yang sudah ditambahkan. Jika hari itu sama dengan tanggal sesi yang akan berjalan, maka statusnya akan berubah menjadi ONGOING. Jika tidak, maka statusnya akan menjadi UPCOMING.
 
-1) **Melakukan Absensi**
+6) **Melakukan Absensi**
 
 Absensi hanya dapat dilakukan di sesi yang sedang “ONGOING”. Kunjungi halaman sesi kelas yang dituju, lalu pilih sesi yang sedang berlangsung, dengan menggunakan *double-click.* Jumlah siswa yang hadir otomatis berada di angka 0 sebelum melakukan absensi, dan akan ter-*update* setelah melakukan absensi.
 
@@ -282,7 +282,7 @@ Sesi yang sudah selesai pada halaman “VIEW SESSIONS” juga akan terupdate men
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.045.png)
 
-1) **Melihat Absensi**
+7) **Melihat Absensi**
 
 User hanya dapat melihat list absensi siswa yang hadir (PRESENT) atau tidak hadir (ABSENT) ketika sesi tersebut sudah selesai. Jadi, user harus membuat sesi dan melakukan absensi menggunakan face recognition terlebih dahulu. Program akan otomatis mengupdate status sesi menjadi COMPLETED beserta absensi siswa didalamnya, dengan memilih sesi yang sudah ada dengan double-click, dan program akan menampilkan seluruh datanya.
 
@@ -290,7 +290,9 @@ User hanya dapat melihat list absensi siswa yang hadir (PRESENT) atau tidak hadi
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.044.png)
 
-1) **Video praktik penggunaan program**
+---
+
+### 4) **Video praktik penggunaan program**
 
 Untuk praktik penggunaan program secara *step-by-step,* maka anda dapat mengakses video penggunaan prototype FACECARD dengan link sebagai berikut:
 
