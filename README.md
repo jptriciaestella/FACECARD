@@ -115,7 +115,7 @@ Klik tombol install jika belum didapati C++ CMake tools for Windows.
 
 Source code untuk menjalankan program ini dapat diakses dari link berikut:
 
-<https://github.com/jptriciaestella/FACECARD.git>
+<https://github.com/jptriciaestella/face_card.git>
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.019.png)
 
