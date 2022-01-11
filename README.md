@@ -1,6 +1,6 @@
-﻿#H1 **Perkembangan Prototype:**
+# **Perkembangan Prototype:**
 
-1) **Prototype Figma**
+### 1) **Prototype Figma**
 
 Kami menyediakan prototype program berupa UI Design dalam website Figma yang dapat diakses dalam link ini:
 
@@ -8,7 +8,9 @@ Kami menyediakan prototype program berupa UI Design dalam website Figma yang dap
 
 Prototype Figma dibuat untuk mempermudah pembuatan program, dan membuat user atau pengguna awam mengerti *flow* aplikasi dari FACECARD, yaitu: login, menambahkan siswa, menambahkan kelas, menambahkan siswa ke dalam kelas yang dipilih, menambahkan sesi baru di kelas yang dipilih, memilih sesi yang sudah ditambahkan untuk melihat absensi yang sudah selesai atau memulai scanning untuk absensi siswa.
 
-1) **Hal-hal yang perlu disiapkan untuk mengakses program prototype**
+---
+
+### 2) **Hal-hal yang perlu disiapkan untuk mengakses program prototype**
 
 Ada beberapa hal yang harus disiapkan terlebih dahulu untuk menjalankan program FACECARD yang sudah tim kami buat. Berikut merupakan langkah-langkah dan program apa saja yang harus dipasang dalam perangkat komputer, yang kami sarankan menggunakan OS Windows 10 dan memori yang cukup untuk menjalankan program secara maksimal. Kami sarankan untuk menggunakan perangkat dengan memori minimal 4 GB dengan ruang penyimpanan minimal 12 GB untuk menginstall semua perangkat dari awal. User juga akan membutuhkan perangkat webcam untuk melakukan absensi menggunakan face recognition yang sudah kami buat.
 
@@ -48,30 +50,30 @@ Pilih Path pada System Variables
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.007.png)
 
-`		`**![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.008.png)**
+![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.008.png)
 
-Pastikan Python versi anda sudah ada di dalam PATH, jika belum, klik tombol “New” dan arahkan ke folder dimana Python anda di-install (folder Scripts). Untuk mengecek versi python yang anda miliki di perangkat anda, jalankan perintah **python –version** di command prompt anda.
+Pastikan Python versi anda sudah ada di dalam PATH, jika belum, klik tombol “New” dan arahkan ke folder dimana Python anda di-install (folder Scripts). Untuk mengecek versi python yang anda miliki di perangkat anda, jalankan perintah `python –version` di command prompt anda.
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.009.png)
 
-1) **PIP for Python**
+2) **PIP for Python**
 
 PIP merupakan tools terbaik untuk menginstall packages dalam python. Untuk menggunakannya, user haru mendownload pip terlebih dahulu di link berikut:
 <https://bootstrap.pypa.io/get-pip.py>
 
 Anda dapat mengklik kanan website tersebut, dan tekan tombol “Save as..” untuk mendownload file get-pip.py. Setelah itu, buka command prompt atau windows PowerShell di direktori di mana get-pip.py diunduh. Lalu, jalankan command berikut:
 
-python get-pip.py
+```python get-pip.py```
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.010.png)
 
-Instalasi PIP akan dimulai. Setelah mendapatkan line yang mengatakan instalasi sukses dan sudah selesai, anda dapat menjalankan command pip -V untuk mengecek versi PIP anda. 
+Instalasi PIP akan dimulai. Setelah mendapatkan line yang mengatakan instalasi sukses dan sudah selesai, anda dapat menjalankan command `pip -V` untuk mengecek versi PIP anda. 
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.011.png)
 
 Jika terminal anda menampilkan versi PIP seperti gambar diatas, maka PIP sudah dapat digunakan.
 
-1) **Cmake**
+3) **Cmake**
 
 Karena program kami menggunakan dlib yang dikembangkan melalui bahasa C, maka Cmake dibutuhkan untuk menjalankan dlib tersebut. Download cmake di link berikut: 
 <https://cmake.org/download/>
@@ -92,7 +94,7 @@ Pastikan CMake sudah terdapat dalam PATH, seperti pada gambar berikut:
 
 Jika belum, anda dapat menekan tombol “New” dan arahkan ke folder bin dimana CMake anda install.
 
-1) **Visual Studio**
+4) **Visual Studio**
 
 Karena dlib menggunakan bahasa C, selain harus mengunduh Cmake, kita juga harus menginstall compiler berupa Visual Studio yang dapat diunduh di link berikut:
 <https://visualstudio.microsoft.com/visual-cpp-build-tools/>
@@ -109,7 +111,7 @@ C++ CMake tools for Windows tidak boleh dilewatkan disini. Setelah instalasi sel
 
 Klik tombol install jika belum didapati C++ CMake tools for Windows.
 
-1) **Download source code FACECARD**
+5) **Download source code FACECARD**
 
 Source code untuk menjalankan program ini dapat diakses dari link berikut:
 
@@ -121,7 +123,7 @@ Untuk mendownload code dalam github, maka anda dapat menekan tombol code hijau d
 
 Ketika FACECARD-main.zip sudah terdownload, maka anda dapat extract file tersebut agar bisa mengakses folder dan file yang dibutuhkan dalam program FACECARD kami.
 
-1) **Install requirements.txt**
+6) **Install requirements.txt**
 
 Untuk menjalankan program, kita harus menginstall beberapa library lain di dalam python yang sudah kami tuliskan dalam requirements.txt. Library tambahan yang akan digunakan antara lain tkcalendar untuk membuat calendar, cmake yang sudah di*download* sebelumnya, dlib dan opencv sebagai deep learning, face-recognition untuk algoritma face recognition yang digunakan, dan library lainnya untuk membuat UI sesuai dengan prototype yang digambarkan. 
 
@@ -130,19 +132,24 @@ Oleh karena itu, user dapat membuka command prompt ataupun windows PowerShell di
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.020.png)
 
 dan jalankan perintah berikut: 
-**pip install -r requirements.txt**
+
+```pip install -r requirements.txt```
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.021.png)
 
 Tunggu sampai semua library dan packages terinstall dengan benar, pastikan komputer anda terhubung dengan koneksi internet yang baik.
 
-1) **Program Prototype**
+---
+
+### 3) **Program Prototype**
 
 Untuk menjalankan program, jalankan powershell di direktori facecard, dan jalankan perintah berikut:
 
-`			`**cd ui**
+```
+cd ui
 
-**python main.py**
+python main.py
+```
 
 ![](./readme-file/Aspose.Words.232f19ee-4f83-45f4-9cff-bdca0940dd99.022.png)
 
@@ -159,7 +166,7 @@ Note: Prototype ini belum mengaplikasikan design yang responsif, sehingga window
 User perlu memasukkan username dan password dari admin yang mengatur absensi mahasiswa. Kami menyediakan beberapa kombinasi username dengan password sebagai berikut:
 
 
-|Username|Password|
+|**Username**|**Password**|
 | :-: | :-: |
 |Admin|Admin|
 |teacher|Password|
