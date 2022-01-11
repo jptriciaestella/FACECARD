@@ -1,0 +1,11 @@
+tkcalendar
+Pillow
+shutils
+requests
+opencv-python
+opencv-contrib-python
+cmake
+dlib
+face-recognition
+glob2
+imutils
