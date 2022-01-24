@@ -296,6 +296,7 @@ User hanya dapat melihat list absensi siswa yang hadir (PRESENT) atau tidak hadi
 
 Untuk praktik penggunaan program secara *step-by-step,* maka anda dapat mengakses video penggunaan prototype FACECARD dengan link sebagai berikut:
 
+https://www.youtube.com/watch?v=Ijfq0pP9oVM&t=154s
 
 Kendala yang didapatkan dari prototype ini adalah kurangnya data facial yang digunakan mesin untuk dipelajari. Karena dalam penggunaan aplikasi ini user hanya mengupload satu foto untuk setiap murid dari sisi depan saja, maka aplikasi akan kurang maksimal dalam *tracking* setiap sisi siswa ketika sedang diabsen. Jika siswa yang sedang melakukan absen tidak menatap langsung kamera, yang tidak sesuai dengan *training image* yang ada, maka program akan kesulitan dalam mendeteksi wajahnya. Selain itu, algoritma yang kami gunakan untuk face recognition ini belum dilatih untuk membedakan wajah asli dengan gambar, sehingga ketika kamera dihadapkan dengan gambar seorang siswa, maka siswa itu akan terdeteksi hadir di database.
 
